@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2014 Robin Chutaux
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in
+  ~ all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~ THE SOFTWARE.
+  -->
+
+<resources>
+    <color name="rippelColor">#FFFFFF</color>
+    
+    <!-- 常用颜色值 -->
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+    <color name="main_blue">#1E90FF</color>
+    
+    
+    <color name="spinner_background">#464646</color>
+    <color name="spinner_background_press">#6baf77</color>
+    <color name="slidingtab_indicatorcolor">#3949AB</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <!-- 蓝色主题颜色 -->
+    <color name="blue_window_bg">#ffffff</color>
+    <color name="blue_item_bg">#3F51C5</color>
+    <color name="blue_primary_color">#3F51C5</color>
+    <color name="light_blue_item_bg">#B63F51C5</color>
+    <color name="light_blue_bg">#333F51C5</color>
+    
+    <!-- 橙色主题颜色 -->
+    <color name="orange_window_bg">#ffffff</color>
+    <color name="orange_item_bg">#FF5722</color>
+    <color name="orange_primary_color">#FF5722</color>
+    <color name="light_orange_item_bg">#B6FF5722</color>
+    <color name="light_orange_bg">#33FF5722</color>
+    <!-- 绿色主题颜色 -->
+    <color name="green_window_bg">#ffffff</color>
+    <color name="green_item_bg">#43B56B</color>
+    <color name="green_primary_color">#43B56B</color>
+    <color name="light_green_item_bg">#B643B56B</color>
+    <color name="light_green_bg">#3343B56B</color>
+    <!-- 浅蓝色主题颜色 -->
+    <color name="lightblue_window_bg">#ffffff</color>
+    <color name="lightblue_item_bg">#039be3</color>
+    <color name="lightblue_primary_color">#039be3</color>
+    <color name="light_lightblue_item_bg">#B6039be3</color>
+    <color name="light_lightblue_bg">#33039be3</color>
+    <!-- 粉色主题颜色 -->
+    <color name="pink_window_bg">#ffffff</color>
+    <color name="pink_item_bg">#f06292</color>
+    <color name="pink_primary_color">#f06292</color>
+    <color name="light_pink_item_bg">#B6f06292</color>
+    <color name="light_pink_bg">#33f06292</color>
+    <!-- 紫色主题颜色 -->
+    <color name="purple_window_bg">#ffffff</color>
+    <color name="purple_item_bg">#AD45BD</color>
+    <color name="purple_primary_color">#AD45BD</color>
+    <color name="light_purple_item_bg">#B6AD45BD</color>
+    <color name="light_purple_bg">#33AD45BD</color>
+    <!-- 红色主题颜色 -->
+    <color name="red_window_bg">#ffffff</color>
+    <color name="red_item_bg">#E95345</color>
+    <color name="red_primary_color">#E95345</color>
+    <color name="light_red_item_bg">#B6E95345</color>
+    <color name="light_red_bg">#33E95345</color>
+    <!-- 靛青色主题颜色 -->
+    <color name="teal_window_bg">#ffffff</color>
+    <color name="teal_item_bg">#009688</color>
+    <color name="teal_primary_color">#009688</color>
+    <color name="light_teal_item_bg">#B6009688</color>
+    <color name="light_teal_bg">#33009688</color>
+    <!-- 黄色主题颜色 -->
+    <color name="yellow_window_bg">#ffffff</color>
+    <color name="yellow_item_bg">#ffc107</color>
+    <color name="yellow_primary_color">#ffc107</color>
+    <color name="light_yellow_item_bg">#B6ffc107</color>
+    <color name="light_yellow_bg">#33ffc107</color>
+    
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+	<color name="ksw_md_ripple_checked">#33019285</color>
+
+	<color name="ksw_md_solid_shadow">#33000000</color>
+
+	<color name="ksw_md_solid_normal">#ECECEC</color>
+	<color name="ksw_md_solid_checked">#019285</color>
+	<color name="ksw_md_solid_disable">#FFFFFF</color>
+	<color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+    
+    
+</resources>

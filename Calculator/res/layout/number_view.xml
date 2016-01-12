@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/numberView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:orientation="horizontal" >
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="("
+                android:textColor="#000000"
+                android:textSize="30sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=")"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="pow"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="top"
+                android:text="^"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="divide"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="÷"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </com.example.view.LayoutRipple>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:orientation="horizontal" >
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="ceClear"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="CE"
+                android:textColor="#000000"
+                android:textSize="27sp" />
+        </com.example.view.LayoutRipple>
+
+      <!--   <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clear"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" > -->
+
+		
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="C"
+                android:textColor="#000000"
+                android:textSize="31sp"
+                android:onClick="clear"
+                android:clickable="true"
+                android:background="@drawable/selector_clear"
+                 />
+        <!-- </com.example.view.LayoutRipple> -->
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="backSpace"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/backspace"
+                android:textColor="#000000" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="multiply"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="×"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </com.example.view.LayoutRipple>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="7"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="8"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="9"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="subtract"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="━"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </com.example.view.LayoutRipple>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="4"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="5"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="6"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="add"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="+"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+        </com.example.view.LayoutRipple>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="1"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="2"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="3"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EE5833"
+            android:onClick="operation"
+            ripple:rippleColor="#33000000"
+            ripple:rippleSpeed="5"
+            android:elevation="6dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textSize="35sp"
+               
+                />
+        </com.example.view.LayoutRipple>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="switchingOperator"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/back_arrow" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="num"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="point"
+            ripple:rippleColor="?attr/primary_color"
+            ripple:rippleSpeed="5" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="●"
+                android:textColor="#000000"
+                android:textSize="5sp" />
+        </com.example.view.LayoutRipple>
+
+        <com.example.view.LayoutRipple
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#EE5833"
+            android:onClick="operation"
+            ripple:rippleColor="#33000000"
+            ripple:rippleSpeed="5"
+            android:elevation="6dp"
+             >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="top|center_horizontal"
+                android:layout_marginTop="-20dp"
+                android:text="="
+                android:textColor="#FFF"
+                android:textSize="38sp" 
+                />
+        </com.example.view.LayoutRipple>
+        
+    </LinearLayout>
+
+</LinearLayout>

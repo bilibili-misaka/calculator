@@ -1,0 +1,117 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- 蓝色的主题样式 -->
+    <style name="BlueTheme" parent="AppTheme">
+        <!-- activity的背景色 -->
+        <item name="android:windowBackground">@color/blue_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/blue_primary_color</item>
+        <item name="item_bg">@color/blue_item_bg</item>
+        <item name="light_item_bg">@color/light_blue_item_bg</item>
+        <item name="light_bg">@color/light_blue_bg</item>
+    </style>
+ <!-- 橙色的主题样式 -->
+    <style name="OrangeTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/orange_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/orange_primary_color</item>
+        <item name="item_bg">@color/orange_item_bg</item>
+        <item name="light_item_bg">@color/light_orange_item_bg</item>
+        <item name="light_bg">@color/light_orange_bg</item>
+    </style>
+    <!-- 绿色的主题样式 -->
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/green_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/green_primary_color</item>
+        <item name="item_bg">@color/green_item_bg</item>
+        <item name="light_item_bg">@color/light_green_item_bg</item>
+        <item name="light_bg">@color/light_green_bg</item>
+    </style>
+    <!-- 浅蓝色的主题样式 -->
+    <style name="LightBlueTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/lightblue_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/lightblue_primary_color</item>
+        <item name="item_bg">@color/lightblue_item_bg</item>
+        <item name="light_item_bg">@color/light_lightblue_item_bg</item>
+        <item name="light_bg">@color/light_lightblue_bg</item>
+    </style>
+    <!-- 粉色的主题样式 -->
+    <style name="PinkTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/pink_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/pink_primary_color</item>
+        <item name="item_bg">@color/pink_item_bg</item>
+        <item name="light_item_bg">@color/light_pink_item_bg</item>
+        <item name="light_bg">@color/light_pink_bg</item>
+    </style>
+    <!-- 紫色的主题样式 -->
+    <style name="PurpleTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/purple_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/purple_primary_color</item>
+        <item name="item_bg">@color/purple_item_bg</item>
+        <item name="light_item_bg">@color/light_purple_item_bg</item>
+        <item name="light_bg">@color/light_purple_bg</item>
+    </style>
+    <!-- 红色的主题样式 -->
+    <style name="RedTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/red_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/red_primary_color</item>
+        <item name="item_bg">@color/red_item_bg</item>
+        <item name="light_item_bg">@color/light_red_item_bg</item>
+        <item name="light_bg">@color/light_red_bg</item>
+    </style>
+	<!-- 靛青色的主题样式 -->
+    <style name="TealTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/teal_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/teal_primary_color</item>
+        <item name="item_bg">@color/teal_item_bg</item>
+        <item name="light_item_bg">@color/light_teal_item_bg</item>
+        <item name="light_bg">@color/light_teal_bg</item>
+    </style>
+    <!-- 黄色的主题样式 -->
+    <style name="YellowTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/yellow_window_bg</item>
+        <item name="text_color">@android:color/white</item>
+        <item name="primary_color">@color/yellow_primary_color</item>
+        <item name="item_bg">@color/yellow_item_bg</item>
+        <item name="light_item_bg">@color/light_yellow_item_bg</item>
+        <item name="light_bg">@color/light_yellow_bg</item>
+    </style>
+    
+    <style name="SwitchButtonMD">
+		<item name="kswThumbDrawable">@drawable/ksw_md_thumb</item>
+		<item name="kswBackColor">@color/ksw_md_back_color</item>
+		<item name="kswBackMeasureRatio">1.45</item>
+		<item name="kswThumbMarginLeft">-16dp</item>
+		<item name="kswThumbMarginTop">-14dp</item>
+		<item name="kswThumbMarginRight">-16dp</item>
+		<item name="kswThumbMarginBottom">-14dp</item>
+		<item name="kswThumbWidth">@dimen/ksw_md_thumb_ripple_size</item>
+		<item name="kswThumbHeight">@dimen/ksw_md_thumb_ripple_size</item>
+	</style>
+    
+</resources>

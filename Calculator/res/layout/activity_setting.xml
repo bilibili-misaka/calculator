@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:elevation="1dp" xmlns:app1="http://schemas.android.com/apk/res/com.example.calculator">
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="?attr/primary_color"
+        android:elevation="6dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="设置"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/selector_circle_bg"
+            android:onClick="back"
+            android:padding="16dp"
+            android:src="@drawable/whiteback_arrow" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/title" 
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="randomTheme"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/selector_setting_bg"
+            android:elevation="2dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="开启随机主题颜色"
+            android:textSize="16sp" />
+
+        <com.example.calculator.switchbutton.SwitchButton
+            android:id="@+id/switchButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:text=""
+            app:kswThumbColor="?attr/primary_color"
+            app:kswTintColor="?attr/primary_color"
+            app:kswBackColor="?attr/light_bg"
+           	style="@style/SwitchButtonMD"
+           	android:elevation="1dp"
+            />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/relativeLayout1" 
+        android:clickable="true"
+        android:onClick="moneyUp"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/selector_setting_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="数字转金额为大写汉字"
+            android:textSize="16sp"
+            android:elevation="1dp"
+             />
+
+        <com.example.calculator.switchbutton.SwitchButton
+            android:id="@+id/switchButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:text=""
+            app:kswThumbColor="?attr/primary_color"
+            app:kswTintColor="?attr/primary_color"
+            app:kswBackColor="?attr/light_bg"
+           	style="@style/SwitchButtonMD"
+           	android:elevation="2dp"
+             />
+    </RelativeLayout>
+
+
+</RelativeLayout>

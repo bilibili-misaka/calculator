@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 文本颜色 -->
+    <attr name="text_color" format="reference" />
+    <!-- 条目的背景 -->
+    <attr name="item_bg" format="reference" />
+    <!-- 标题栏背景色 -->
+    <attr name="primary_color" format="reference" />
+	<!-- 半透明背景色 -->
+    <attr name="light_item_bg" format="reference" />
+    
+    <attr name="light_bg" format="reference" />
+    
+</resources>
